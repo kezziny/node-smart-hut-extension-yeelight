@@ -1,0 +1,30 @@
+{
+  "name": "@kezziny/smart-hut-extension-yeelight",
+  "version": "1.0.0",
+  "description": "SmartHut project extension",
+  "main": "bin/index.js",
+  "types": "bin/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kezziny/node-smart-hut-extension-yeelight.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kezziny/node-smart-hut-extension-yeelight/issues"
+  },
+  "homepage": "https://github.com/kezziny/node-smart-hut-extension-yeelight#readme",
+  "dependencies": {
+    "@kezziny/reflection": "^1.0.0",
+    "@kezziny/smart-hut": "file:../node-smart-hut",
+    "typescript": "^4.7.2",
+    "yeelight-awesome": "^1.1.0",
+    "yeelight-node": "^1.1.6"
+  }
+}
